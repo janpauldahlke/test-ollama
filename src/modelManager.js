@@ -1,3 +1,7 @@
+// this will not work and is an attempt to access and interact with fs and ollama
+// but is restricted as client call, 
+// we need to refactor to server / client respobsiblities to overcome this , also as CORS
+
 export const runCommand = async (command) => {
   console.warn("runCommand is not supported in the browser.");
   return Promise.reject("Child process commands are unavailable in the browser.");

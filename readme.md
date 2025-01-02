@@ -1,12 +1,16 @@
 # ollama
 
+## look and feel
+
+![simpleton ui](./assets/Screenshot%202025-01-02%20at%2012.23.29.png)
+
 ## prerequisites
 
 * install [ollama](https://ollama.com/) + CLI
-* install models you wish to use
-  * `ollama pull <model>`
+* install models you wish to use (note 8Gb is your onlyoption on local pc/mac for insuffienct vram)
+* `ollama pull <model>`
 
-  ```bash
+```bash
   ~ ollama list
   NAME               ID              SIZE      MODIFIED       
   llama3.3:latest    a6eb4748fd29    42 GB     11 minutes ago    
