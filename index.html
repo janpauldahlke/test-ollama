@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cheap gpt</title>
+</head>
+
+<body style="width:80vw;margin: 40px auto; ">
+
+
+  <fieldset>
+    Select a Model:
+
+    <div>
+      <input type="radio" name="model" checked id="mistral" />
+      <label for="mistral">Mistral</label>
+
+      <input type="radio" name="model" id="mixtral" />
+      <label for="mixtral">Mixtral</label>
+
+      <input type="radio" name="model" id="llama3.1" />
+      <label for="llama3.1">llama3.1</label>
+
+      <input type="radio" name="model" id="llama3.3" />
+      <label for="llama3.3">llama3.3</label>
+
+      <input type="radio" name="model" id="gemma" />
+      <label for="gemma">gemma</label>
+
+      <input type="radio" name="model" id="qwen2" />
+      <label for="qwen2">qwen2</label>
+
+    </div>
+  </fieldset>
+
+
+  <h5>what comes to mind:</h5>
+  <div style="display: flex;">
+
+    <div class="question">
+      <textarea style="width: 60vw;"></textarea>
+      <!--button> click </button-->
+    </div>
+
+    <div style="margin-left: auto; max-width: 30vw;">
+      <ul></ul>
+    </div>
+  </div>
+
+  <div class="answer">
+    <span></span>
+  </div>
+
+
+</body>
+<script type="module" src="./src/index.mjs"></script>
+
+</html>
